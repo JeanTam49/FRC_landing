@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semaine 1 - Votre Programme d'Entraînement Cérébral</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #000;
+            background: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            background: #2563eb;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 1.8rem;
+        }
+        
+        .header p {
+            margin: 10px 0 0 0;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .greeting {
+            font-size: 1.1rem;
+            margin-bottom: 25px;
+        }
+        
+        .intro {
+            background: #f0f8ff;
+            padding: 20px;
+            border-left: 4px solid #2563eb;
+            margin-bottom: 30px;
+        }
+        
+        .week-info {
+            text-align: center;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        
+        .week-title {
+            color: #2563eb;
+            font-size: 1.4rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .exercise {
+            margin-bottom: 40px;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .exercise-header {
+            background: #2563eb;
+            color: white;
+            padding: 15px 20px;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        
+        .exercise-content {
+            padding: 20px;
+        }
+        
+        .exercise-steps {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        
+        .exercise-steps ol {
+            margin: 0;
+            padding-left: 20px;
+        }
+        
+        .exercise-steps li {
+            margin-bottom: 8px;
+        }
+        
+        .example {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        
+        .example-title {
+            font-weight: bold;
+            color: #856404;
+            margin-bottom: 8px;
+        }
+        
+        .science-box {
+            background: #e8f5e8;
+            border: 1px solid #c3e6c3;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            font-size: 0.95rem;
+        }
+        
+        .science-title {
+            font-weight: bold;
+            color: #155724;
+            margin-bottom: 8px;
+        }
+        
+        .cta-section {
+            text-align: center;
+            background: #f0f8ff;
+            padding: 25px;
+            margin: 30px 0;
+            border-radius: 8px;
+        }
+        
+        .cta-button {
+            background: #2563eb;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 10px;
+        }
+        
+        .tips {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 25px 0;
+        }
+        
+        .tips h3 {
+            color: #2563eb;
+            margin-top: 0;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 25px;
+            background: #f8f9fa;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .progress-bar {
+            background: #e5e7eb;
+            height: 8px;
+            border-radius: 4px;
+            margin: 15px 0;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            background: #2563eb;
+            height: 100%;
+            width: 25%;
+            border-radius: 4px;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .header {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        
+        <div class="header">
+            <h1>🧠 Semaine 1 : C'est parti !</h1>
+            <p>Votre voyage vers un cerveau plus performant commence maintenant</p>
+        </div>
+        
+        <div class="content">
+            
+            <div class="greeting">
+                Bonjour [PRÉNOM] ! 👋
+            </div>
+            
+            <div class="intro">
+                <strong>Félicitations !</strong> Vous venez de faire le premier pas vers l'amélioration de vos capacités cognitives. Voici vos 3 premiers exercices, spécialement conçus pour poser les <strong>fondations de votre entraînement mental</strong>.
+            </div>
+            
+            <div class="week-info">
+                <div class="week-title">Semaine 1 : Fondations et concentration mentale</div>
+                <p>3 exercices • 15 minutes par jour • Disponibles en audio et texte</p>
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+                <small>Progression : 25% du programme</small>
+            </div>
+            
+            <div class="cta-section">
+                <h3>🎯 Prêt à commencer ?</h3>
+                <p>Choisissez votre format préféré :</p>
+                <a href="#" class="cta-button">📖 Version Texte</a>
+                <a href="#" class="cta-button">🎧 Version Audio</a>
+            </div>
+            
+            <!-- Exercice 1 -->
+            <div class="exercise">
+                <div class="exercise-header">
+                    🧠 Exercice 1 : Mémoire à court terme
+                </div>
+                <div class="exercise-content">
+                    <p><strong>Objectif :</strong> Renforcer votre mémoire de travail par la visualisation et restitution auditive</p>
+                    
+                    <div class="exercise-steps">
+                        <strong>Instructions :</strong>
+                        <ol>
+                            <li>Fermez les yeux</li>
+                            <li>Demandez à quelqu'un de vous dicter lentement 5 à 7 mots simples</li>
+                            <li>Attendez 10-15 secondes en silence</li>
+                            <li>Répétez la liste dans l'ordre</li>
+                            <li>Puis répétez-la dans l'ordre inverse</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="example">
+                        <div class="example-title">💡 Exemple pratique</div>
+                        Imaginez être au téléphone sans pouvoir écrire. On vous dicte : "Lait, pain, œufs, pommes, café". Après avoir raccroché, récitez d'abord "Lait, pain, œufs, pommes, café", puis à l'envers : "Café, pommes, œufs, pain, lait".
+                    </div>
+                    
+                    <div class="science-box">
+                        <div class="science-title">🔬 Pourquoi ça marche</div>
+                        Cet exercice stimule votre cortex préfrontal et optimise les circuits neuronaux de la mémoire de travail. L'entraînement régulier améliore la communication entre différentes aires cérébrales.
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Exercice 2 -->
+            <div class="exercise">
+                <div class="exercise-header">
+                    🧩 Exercice 2 : Logique - Associations d'idées
+                </div>
+                <div class="exercise-content">
+                    <p><strong>Objectif :</strong> Stimuler vos réseaux sémantiques et renforcer les connexions neuronales</p>
+                    
+                    <div class="exercise-steps">
+                        <strong>Instructions :</strong>
+                        <ol>
+                            <li>Choisissez un mot de départ (ou demandez à quelqu'un)</li>
+                            <li>Trouvez rapidement 5 mots associés</li>
+                            <li>Expliquez brièvement pourquoi chaque mot vous est venu</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="example">
+                        <div class="example-title">💡 Exemple pratique</div>
+                        Mot : "Plage" → "Sable" (il y en a sur la plage), "Mer" (elle borde la plage), "Vacances" (on y va en vacances), "Château" (châteaux de sable), "Crème solaire" (indispensable protection).
+                    </div>
+                    
+                    <div class="science-box">
+                        <div class="science-title">🔬 Pourquoi ça marche</div>
+                        Vous activez vos réseaux sémantiques, renforcez les synapses existantes et favorisez la formation de nouvelles voies neuronales grâce à la verbalisation.
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Exercice 3 -->
+            <div class="exercise">
+                <div class="exercise-header">
+                    ⚡ Exercice 3 : Stimulation - Défi de catégorisation
+                </div>
+                <div class="exercise-content">
+                    <p><strong>Objectif :</strong> Booster votre fluidité verbale et stimuler votre récupération en mémoire</p>
+                    
+                    <div class="exercise-steps">
+                        <strong>Instructions :</strong>
+                        <ol>
+                            <li>Choisissez une catégorie (ou demandez à quelqu'un)</li>
+                            <li>Réglez un chronomètre sur 60 secondes</li>
+                            <li>Listez le maximum d'éléments de cette catégorie</li>
+                            <li>Comptez vos réponses correctes</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="example">
+                        <div class="example-title">💡 Exemple pratique</div>
+                        Catégorie "Outils de jardinage" : bêche, râteau, sécateur, tondeuse, arrosoir, brouette, plantoir, pioche, tuyau, gants, etc. Combien en trouvez-vous en 1 minute ?
+                    </div>
+                    
+                    <div class="science-box">
+                        <div class="science-title">🔬 Pourquoi ça marche</div>
+                        Stimulation intense de la fluidité verbale sémantique, sollicitation des fonctions exécutives et maintien de l'efficacité des circuits neuronaux.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cta-section">
+                <h3>🎯 Prêt à commencer ?</h3>
+                <p>Choisissez votre format préféré :</p>
+                <a href="#" class="cta-button">📖 Version Texte</a>
+                <a href="#" class="cta-button">🎧 Version Audio</a>
+            </div>
+            
+            <div class="tips">
+                <h3>💡 Conseils pour réussir</h3>
+                <ul>
+                    <li><strong>Régularité :</strong> Pratiquez 15 minutes par jour, de préférence au même moment</li>
+                    <li><strong>Progression :</strong> Commencez doucement, la performance viendra naturellement</li>
+                    <li><strong>Plaisir :</strong> Amusez-vous ! Un cerveau détendu apprend mieux</li>
+                    <li><strong>Variété :</strong> Alternez les exercices pour solliciter différentes zones</li>
+                </ul>
+            </div>
+            
+            <div style="text-align: center; margin: 30px 0;">
+                <p><strong>Rendez-vous mercredi pour la suite ! 🚀</strong></p>
+                <p style="color: #666; font-size: 0.9rem;">Vous recevrez des conseils pratiques et une variante des exercices</p>
+            </div>
+            
+        </div>
+        
+        <div class="footer">
+            <p><strong>Fondation pour la Recherche sur le Cerveau</strong><br>
+            25 ans d'expertise en neurosciences</p>
+            <p style="margin-top: 15px;">
+                <a href="#" style="color: #2563eb;">Se désinscrire</a> | 
+                <a href="#" style="color: #2563eb;">Nous contacter</a>
+            </p>
+        </div>
+        
+    </div>
+</body>
+</html>
